@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Daily commuting movements home to work - Tartu</title>
+
+		<!--link to stylesheet-->
+		<link rel="stylesheet" href="css/map-style.css">
+
+		<!-- link to leaflet stylesheet-->
+		<link rel="stylesheet" href="css/leaflet.css">
+	</head>
+
+	<body>
+		<!--the sequence of elements called matters!-->
+		<!-- title of your map-->
+		<h1> Daily commuting movements home to work - Tartu </h1>
+
+		<!-- division div for the map -->
+		<div id="map"></div>
+
+		<!-- link to leaflet javascript library-->
+		<script src="js/leaflet-src.js"></script>
+
+		<!-- load Esri Leaflet because we want to use an Esri basemap -->
+		<script src="https://unpkg.com/esri-leaflet@2.3/dist/esri-leaflet.js"></script>
+
+		<!-- Load animation tweening lib requirement for CanvasFlowMapLayer -->
+		<script src="https://unpkg.com/@tweenjs/tween.js@18.5.0/dist/tween.umd.js"></script>
+
+		<!-- then load CanvasFlowMapLayer -->
+		<script src="js/CanvasFlowmapLayer.js"></script>
+
+		<!--link to the files that contains geoJson data-->
+		<script src="data/movements_tartu.geojson" > </script>
+
+		<!-- link to main javascript file -->
+		<script src="js/main-movements-tartu.js"></script>
+
+	</body>
+<html>
