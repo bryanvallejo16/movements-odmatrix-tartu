@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/384406571.svg)](https://zenodo.org/badge/latestdoi/384406571)
 # Map animation of home-work commuting (OD Matrix) in Tartu County
 ## Aim
 This visualization practice aims to create an interactive map animation (web map) in Leaflet that shows the movement between Home and Work of individuals (OD-Matrix) in Tartu, Estonia.
