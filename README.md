@@ -5,7 +5,7 @@ This visualization practice aims to create an interactive map animation (web map
 
 ***Final map animation:*** https://bryanvallejo16.github.io/movements-odmatrix-tartu/
 
-***Tutorial:*** 
+***Tutorial:*** https://towardsdatascience.com/interactive-flow-map-with-an-od-matrix-of-regular-movements-in-tartu-estonia-3ac6b7738397
 
 ## Final map
 ![animation](png/gif-movements.gif)
